@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Stellar by HTML5 UP</title>
+		<title>Thórhildur Thorleiks</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -21,17 +21,15 @@
 					<header id="header" class="alt">
 						<span class="logo"><img src="images/logo.svg" alt="" /></span>
 						<h1>Thórhildur Thorleiksdóttir</h1>
-						<p>Just another free, fully responsive site template<br />
-						built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p>Yet another software developer.</p>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li><a href="#intro" class="active">Introduction</a></li>
-							<li><a href="#first">First Section</a></li>
-							<li><a href="#second">Second Section</a></li>
-							<li><a href="#cta">Get Started</a></li>
+							<li><a href="#intro" class="active">About</a></li>
+							<li><a href="#first">Projects</a></li>
+							<li><a href="#second">Research</a></li>
 						</ul>
 					</nav>
 
@@ -43,132 +41,116 @@
 								<div class="spotlight">
 									<div class="content">
 										<header class="major">
-											<h2>Ipsum sed adipiscing</h2>
+											<h2>Hi, I'm Thórhildur!</h2>
 										</header>
 										<p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
 										adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
 										Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
-										<ul class="actions">
-											<li><a href="generic.html" class="button">Learn More</a></li>
+										<ul class="icons">
+											<li><a href="https://github.com/thorhildurt" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+											<li><a href="https://www.linkedin.com/in/th%C3%B3rhildur-thorleiksd%C3%B3ttir-331385129/" class="icon brands fa-linkedin alt"><span class="label">Linkedin</span></a></li>
+											<li><a href="https://twitter.com/thorhildur4" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
 										</ul>
 									</div>
-									<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+									<span class="image"><img src="images/tt.jpeg" alt="" />
+									</span>
+
 								</div>
 							</section>
 
 						<!-- First Section -->
 							<section id="first" class="main special">
 								<header class="major">
-									<h2>Magna veroeros</h2>
+									<h2>Projects</h2>
 								</header>
+								<article></article>
+								<div class="content">
+									<h2>Exquisitor Web App v2.0</h2>
+									<p>
+										In addition to the first web application for Exquisitor Web App v1.0 (see project details below), another web app, Exquisitor Web App v2.0, was designed and implemented specifically to explore large image collections using eye-tracking. The Web App was largely based on Exquisitor Web App v1.0 system design, but the front end was redesigned for easier navigation using eye-tracking. The project was a collaboration between me, Hanna Ragnarsdóttir, and Vigdís Birna Þorsteinsdóttir during summer 2018. Vigdís implemented the new version of the front end and configured the eye-tracking functionality for the web application. We then jointly designed and conducted user experiments to compare the new interface with different input devices to analyse the user experience using eye-tracking compared to standard input devices, such as mouse and keyboard. We demonstrated the system at the <a href="https://www.visindavaka.is/"><span class="label">Researcher's Night</span></a> event in Iceland. The source code is available on <a href="https://github.com/vigdisbirna/ex2"><span class="label">Github</span></a>.
+									</p> 
+										
+								</div>
+							</article>
+								<article></article>
+								<div class="content">
+									<h2>Exquisitor Web App v1.0</h2>
+									<p>
+										Exquisitor is a browser-based media explorer capable of learning user preferences in real-time during interactions with the 100 million images of the <a href="http://projects.dfki.uni-kl.de/yfcc100m/about"><span class="label">YFCC100M</span></a> collection. 
+										The system owes its efficiency to Blackthorn, an interactive multimodal learning engine and high-dimensional indexing algorithm called eCP. Exquisitor can complete each interaction round in less than 10 ms, using only a single CPU core with a modest memory footprint, which opens up large-scale multimedia analytics to consumer PCs, as well as multi-user and multi-platform environments. Below is a demo of our system. 
+									</p>
+									<p>
+									<iframe width="640" height="390" src="https://www.youtube.com/embed/nh5ty-_WORI?start=85">
+									</iframe>
+									</p>
+									<p>
+									The project involved implementing a web application to explore the underlying algorithm of Exquisitor in action with real images from the YFCC100M. The application was implemented by Hanna Ragnarsdóttir and me on top of our Bachelor project at Reykjavik University during three weeks in the spring of 2018. I implemented the front-end using React JS library and configured the image API with Apache while Hanna developed the learning API for the underlying algorithm using Python and Flask. We both designed the system architecture, UI and the underlying algorithm. The source code is available on Github for the <a href="https://github.com/thorhildurt/Exquisitor1.0"><span class="label">front end</span></a>
+									and the <a href="https://github.com/hanna15/UROP"><span class="label">learning API</span></a>. 
+									</p> 
+								</div>
+							</article>
+							<article>
+								<div class="content">
+									<h2>Sheep of Iceland</h2>
+									<p>
+										Sheep of Iceland is a 2D side-scrolling indie game influenced by the nature and culture of Iceland. The player is an Icelandic shepherd girl called Freyja. She walks around Iceland to collect her lost sheep. The sheep roam free in Iceland, but some of them have been stolen by an angry troll. The goal of the game is to collect all sheep that belong to Freyja. To save her sheep from the troll, Freyja has to solve puzzles asked by the troll throughout the game. An elf, called Hulda, helps Freyja outsmart the troll by leaving magic notes to solve the puzzles. The troll's riddles are related to Icelandic history, culture and nature.
+									</p>
+									<p>
+										Sheep of Iceland is a Unity game designed and developed by me, Hulda Lilja Hannesdóttir, and Agnes Jóhannesdóttir over three weeks in Reykjavik University's Computer Game Design & Development course in 2017. Check out our <a href="https://github.com/agnesjoh/Sheep-Of-Iceland"><span class="label">Github repository</span></a> for more details on the source code.
+									</p>
+									<span class="image" ><img width="640" height="390" src="gifs/soi-sample.gif" alt="" />
+									</div>
+							</article>
+								<!--
 								<ul class="features">
 									<li>
 										<span class="icon solid major style1 fa-code"></span>
-										<h3>Ipsum consequat</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+										<h3>Sheep of Iceland</h3>
+										<p>Sheep of Iceland is a 2D side scrolling indie type game influenced by the nature and culture of Iceland. The player is an Icelandic shepherd girl, called Freyja. She walks around Iceland to collect her lost sheep. The sheep walk loose in Iceland but some of them have been stolen by an angry troll. In order to save her sheep from the troll, Freyja has to solve puzzles asked by the troll throughout the game. An elf, called Hulda, helps Freyja to outsmart the troll by leaving magic notes to solve the puzzles. The troll’s puzzles are related to Icelandic history, culture and nature. </p>
 									</li>
 									<li>
-										<span class="icon major style3 fa-copy"></span>
+										<span class="icon major style2 fa-copy"></span>
 										<h3>Amed sed feugiat</h3>
 										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
 									</li>
 									<li>
-										<span class="icon major style5 fa-gem"></span>
+										<span class="icon major style3 fa-gem"></span>
 										<h3>Dolor nullam</h3>
 										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
 									</li>
 								</ul>
+								
 								<footer class="major">
 									<ul class="actions special">
 										<li><a href="generic.html" class="button">Learn More</a></li>
 									</ul>
 								</footer>
+							-->
 							</section>
 
 						<!-- Second Section -->
 							<section id="second" class="main special">
 								<header class="major">
-									<h2>Ipsum consequat</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
-								</header>
-								<ul class="statistics">
-									<li class="style1">
-										<span class="icon solid fa-code-branch"></span>
-										<strong>5,120</strong> Etiam
-									</li>
-									<li class="style2">
-										<span class="icon fa-folder-open"></span>
-										<strong>8,192</strong> Magna
-									</li>
-									<li class="style3">
-										<span class="icon solid fa-signal"></span>
-										<strong>2,048</strong> Tempus
-									</li>
-									<li class="style4">
-										<span class="icon solid fa-laptop"></span>
-										<strong>4,096</strong> Aliquam
-									</li>
-									<li class="style5">
-										<span class="icon fa-gem"></span>
-										<strong>1,024</strong> Nullam
-									</li>
-								</ul>
-								<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
-								</footer>
-							</section>
+									<h2>Research</h2>
+									<p>My research has evolved around information retrieval for large multimedia collections, interactive multimodal learning, and high-dimensional indexing. Recently I have worked more on evaluation methods for generative machine learning models focusing on human evaluation strategies. 
+									Below is an overview of my recent research activities, such as my bachelor and master thesis, paper publications and conference participation. </p>
 
-						<!-- Get Started -->
-							<section id="cta" class="main special">
-								<header class="major">
-									<h2>Congue imperdiet</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
 								</header>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="generic.html" class="button primary">Get Started</a></li>
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
-								</footer>
+								<p class="align-left"><strong>Thórhildur Thorleiksdóttir</strong>. Understanding Human Potentials for Evaluating Generative Models. <i>Master Thesis</i>. ETH Zürich. 2021. <a href="https://doi.org/10.3929/ethz-b-000507443">[PDF]</a></p>
+								<p class="align-left">Omar Shahbaz Khan, Björn Þór Jónsson, Stevan Rudinac, Jan Zahálka, Hanna Ragnarsdóttir, <strong>Thórhildur Thorleiksdóttir</strong>, Gylfi Þór Guðmundsson, Laurent Amsaleg &amp; Marcel Worring. Interactive Learning for Multimedia at Large. In: Jose J. et al. (eds) Advances in Information Retrieval. ECIR 2020. Lecture Notes in Computer Science, vol 12035. Springer, Cham. <a href="https://link.springer.com/chapter/10.1007%2F978-3-030-45439-5_33">[PDF]</a></p>
+								<p class="align-left">Hanna Ragnarsdóttir, <strong>Thórhildur Thorleiksdóttir</strong>, Omar Shahbaz Khan, Björn Þór Jónsson, Gylfi Þór Guðmundsson, Jan Zahálka, Stevan Rudinac, Laurent Amsaleg &amp; Marcel Worring. Exquisitor: Breaking the Interaction Barrier for Exploration of 100 Million Images. <i>Proceedings of the 27th ACM International Conference on Multimedia</i>. 2019. <a href="https://dl.acm.org/doi/10.1145/3343031.3350580">[PDF]</a></p>
+								<p class="align-left">Hanna Ragnarsdóttir &amp; <strong>Thórhildur Thorleiksdóttir</strong>. Exquisitor: High-Performance Interactive Multimodal Learning with Approximate High-Dimensional Indexing.
+									 <i>Women in Machine Learning Poster Session</i>. 2018.</a></p>
+								<p class="align-left">Hanna Ragnarsdóttir &amp; <strong>Thórhildur Thorleiksdóttir</strong>. Blackthorn Pruning: High-Performance Interactive Multimodal Learning with Approximate High-Dimensional Indexing. <i>Bachelor Thesis</i>. Reykjavik University. 2018. <a href="http://hdl.handle.net/1946/31204">[PDF]</a></p>
+								
 							</section>
 
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<section>
-							<h2>Aliquam sed mauris</h2>
-							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn More</a></li>
-							</ul>
-						</section>
-						<section>
-							<h2>Etiam feugiat</h2>
-							<dl class="alt">
-								<dt>Address</dt>
-								<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
-								<dt>Phone</dt>
-								<dd>(000) 000-0000 x 0000</dd>
-								<dt>Email</dt>
-								<dd><a href="#">information@untitled.tld</a></dd>
-							</dl>
-							<ul class="icons">
-								<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
-							</ul>
-						</section>
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">&copy; Thórhildur Thorleiksdóttir. All rights reserved. <br/> Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
-
 			</div>
 
 		<!-- Scripts -->
