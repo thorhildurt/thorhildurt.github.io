@@ -8,8 +8,7 @@
 */
 
 
-html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+html, body, div, span, applet, object, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
@@ -3796,7 +3795,7 @@ input, select, textarea {
   }
   
   /* Then style the iframe to fit in the container div with full height and width */
-  .responsive-iframe {
+  iframe.responsive-iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
